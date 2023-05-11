@@ -4,7 +4,7 @@ import ErrorOutlineOutlinedIcon from "@mui/icons-material/ErrorOutlineOutlined";
 
 const Dashboard = () => {
   return (
-    <Box sx={{pl: "4rem", pr: "2rem", pt: "1rem"}}>
+    <Box sx={{pl: "4rem", pr: "2rem", pt: "1rem", pb: "3rem", bgcolor: "#fff"}}>
       <Button startIcon={<KeyboardBackspaceIcon />} sx={{color: "#9db3fd"}}>Back to Dashboard</Button>
       <Stack direction="row" sx={{justifyContent: "space-between", pt: "1rem", alignItems: "center"}}>
         <Stack direction="row" gap={3} sx={{alignItems: "center"}}>

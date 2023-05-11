@@ -5,7 +5,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const Navbar = () => {
   return (
-    <AppBar position="static" sx={{ width: "100%", bgcolor: "#fff" }}>
+    <AppBar position="static" sx={{ width: "100%", bgcolor: "#fff", borderBottom: "4px solid #f7f7fb" }}>
       <Toolbar
         sx={{ width: "100%", display: "flex", justifyContent: "space-between" }}
       >
