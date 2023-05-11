@@ -14,6 +14,8 @@ import DashboardCard from "../DashboardCard";
 import Navbar from "../Navbar";
 import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import MaleIcon from "@mui/icons-material/Male";
+import TransportCard from "../TransportCard";
+import TradeCard from "../TradeCard";
 
 const Body = () => {
   return (
@@ -105,6 +107,13 @@ const Body = () => {
                 </Link>
               </Stack>
             </Stack>
+            <TransportCard tradeNo={1} transitDays={37}/>
+            <Stack direction="row" spacing={2}>
+            <TradeCard liquidNitro/>
+            <TradeCard frozenFish/>
+            <TradeCard assignCargo/>
+            </Stack>
+            <TransportCard tradeNo={2} transitDays={42}/>
           </Paper>
         </Box>
       </Box>
